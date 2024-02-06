@@ -7,13 +7,22 @@ import {
   ScrollView,
   Image,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import MyCarousel from "../../components/MyCarousel";
 import data from "../../data/data.json";
 import Ionicons from "@expo/vector-icons/Ionicons";
 
 const EventPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (text) => {
+    setSearchQuery(text);
+  };
+  const FilteredData = useMemo(() => {
+    return data.events.filter((item) => {
+      return item.name.toLowerCase().includes(searchQuery.toLowerCase());
+    });
+  });
 
   return (
     <SafeAreaView
@@ -25,7 +34,7 @@ const EventPage = () => {
     >
       <TextInput
         style={styles.input}
-        //onChangeText={handleSearch}
+        onChangeText={handleSearch}
         value={searchQuery}
         placeholder="Search..."
       />
@@ -33,7 +42,7 @@ const EventPage = () => {
         <Text style={styles.header}>Popular Events</Text>
         <MyCarousel data={data.events.filter((item) => item.isPopular)} />
         <FlatList
-          data={data.events}
+          data={FilteredData}
           renderItem={({ item }) => (
             <View style={styles.flatList}>
               <Image
@@ -113,13 +122,14 @@ const styles = {
     color: "#9087E3",
   },
   input: {
-    height: 40,
-    borderColor: "gray",
+    height: 45,
+    borderColor: "#9087E3",
     borderWidth: 1,
-    paddingLeft: 10,
+    padding: 10,
     borderRadius: 10,
-    width: "90%",
+    width: "70%",
     margin: 20,
+    marginBottom: 10,
   },
   flatList: {
     width: "90%",
