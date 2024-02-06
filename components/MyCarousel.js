@@ -61,7 +61,7 @@ const MyCarousel = ({ data }) => {
 };
 const styles = {
   slide: {
-    backgroundColor: "beige",
+    backgroundColor: "#9087E3",
     borderRadius: 10,
     height: 200,
   },
