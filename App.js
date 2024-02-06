@@ -1,13 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
+import EventPage from "./screens/eventpage/EventPage";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start worki</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <EventPage />;
 }
 
 const styles = StyleSheet.create({

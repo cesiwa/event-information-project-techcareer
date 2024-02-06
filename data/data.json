@@ -1,0 +1,259 @@
+{
+  "events":[
+    {
+      "city":"İzmir",
+      "location":{
+        "adress":"Kordon",
+        "googleMap":"https://goo.gl/maps/5z3Z3"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://www.izmir.bel.tr/Files/Content/hamlet-izmir-2018-12-20-16-00-00-5c1b3b3c3e3e4.jpg",
+      "category":"Tiyatro",
+      "isFree":false,
+      "isPopular":true,
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "short":"Var olmak mı, yok olmak mı, bütün sorun bu! Düşüncemizin katlanması mı güzel, Zalim kaderin yumruklarına, oklarına, Yoksa diretip bela denizlerine karşı, Dur, yeter! Demesi mi?",
+        "long":"Hamlet, William Shakespeare tarafından 1599-1601 yılları arasında yazılan bir trajedidir. Danimarka’da geçen oyunda, Prens Hamlet’in kral olan babasını öldürdükten sonra tahta geçen ve annesi Gertrude ile evlenen amcası Claudius’tan öç alma cabasını görürüz. Hamlet kahır dolu bir kederden öfke dolu bir hale geçerken, cinnetin izlediği yolda öcünü alacaktır.",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"Hamlet Tiyatro Gösterisi",
+      "image":[
+        "https://www.devtiyatro.gov.tr/uploads/7001_10000_4010_1b007c31-aa95-4b07-a0cd-8b36376542a6.jpeg",
+        "https://www.izmir.bel.tr/Files/Content/hamlet-izmir-2018-12-20-16-00-00-5c1b3b3c3e3e4.jpg"
+      ]
+    }, {
+      "city":"İzmir",
+      "location":{
+        "adress":"Kordon",
+        "googleMap":"https://goo.gl/maps/5z3Z3"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://www.izmir.bel.tr/Files/Content/hamlet-izmir-2018-12-20-16-00-00-5c1b3b3c3e3e4.jpg",
+      "category":"Tiyatro",
+      "isFree":false,
+      "isPopular":true,
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "long":"Geçirdiği kalp krizi sonucu hastaneye kaldırılan Hikmet Bey yoğun bakıma girmeden önce kızı Şebnem'e bir vasiyette bulunur. Majestik Tiyatrosunun eski görkemine kavuşup yeniden açılmasını istemektedir. Bunun için de bu tiyatroyu seven ve emeği geçen beş kadına güvenir. Onların el ele verip işbirliği yapmalarını ister. Birbirinden farklı bu beş kadın Majestik Tiyatrosunu yeniden açmak için büyük bir maceraya atılırlar.",
+        "short":"null",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"MAJESTİK",
+      "image":[
+        "https://www.devtiyatro.gov.tr/uploads/7001_10000_2994_29794281-fdc8-476e-a3e8-4e5d1c9c52f4.jpeg",
+        "https://www.devtiyatro.gov.tr/uploads/7000_10000_2994_beff9476-13e0-4568-8e20-a00972d8d9ef.jpeg",
+        "https://www.devtiyatro.gov.tr/uploads/7000_10000_2994_93c6f425-d42d-4dab-b3b3-3ec490815268.jpeg",
+        "https://www.devtiyatro.gov.tr/uploads/7000_10000_2994_7fcd3443-d617-4d98-928c-cddc1c1cab71.jpeg"
+      ]
+    },
+    {
+      "city":"Bursa",
+      "location":{
+        "adress":"Cumhuriyet Mahallesi, Nilüfer Hatun Cd. No:114, 16140 Nilüfer/Bursa",
+        "googleMap":"https://biletinial.com/tr-tr/mekan/podyum-sanat-mahal-soldout"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://biletinial.com/tr-tr/tiyatro/kotu-bir-gun-soldoutevent2",
+      "category":"Tiyatro",
+      "isFree":false,
+      "isPopular":true,
+
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "long":"Eşinden boşandıktan sonra, dededen kalma apartmana taşınmak zorunda kalan psikolog Erdem, hiç uğramadığı bu dört katlı küçük apartmanda sadece apartman görevlisi Yakup’un kaldığını fark eder. Taşındığının ertesi günü onu ziyarete gelen Yakup, üst katta yaşayan son kiracının da birkaç gün önce intihar ettiğini haber verir ve ayrılır. Ama hemen ardından bambaşka birisi gibi geri gelir. Erdem bir psikolog gözüyle Yakup’un garip davrandığını fark etse de işin çok daha ciddi olduğunu anlaması zaman alır. Şimdi iki adam bu dairede bir şekilde sıkışıp kalmışlardır ve aralarında apartmanın karanlık tarihiyle ilgili sinir bozucu bir yüzleşme başlar.",
+        "short":"'Kötü Bir Gün'; sınıf çatışması, otorite, özgürlük arayışı, rahatsızlıklarımız ve toplumsal kodlarımız üzerine sinir bozucu bir kara komedi.",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"Kötü Bir Gün",
+      "image":[
+        "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kotu-bir-gun-20231052133271f6502db9d3949cda4ebf9ce8e95850a.jpg"
+      ]
+    },
+    {
+      "city":"İstanbul Anadolu",
+      "location":{
+        "adress":"Cumhuriyet Mahallesi, Nilüfer Hatun Cd. No:114, 16140 Nilüfer/Bursa",
+        "googleMap":"https://biletinial.com/tr-tr/mekan/podyum-sanat-mahal-soldout"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://biletinial.com/tr-tr/tiyatro/kotu-bir-gun-soldoutevent2",
+      "category":"Stand Up",
+      "isFree":false,
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "long":"Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "short":"NULL",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"Gökhan Ünver Stand Up",
+      "image":[
+        "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kotu-bir-gun-20231052133271f6502db9d3949cda4ebf9ce8e95850a.jpg"
+      ]
+    },
+    {
+      "city":"Ankara",
+      "location":{
+        "adress":"Cumhuriyet Mahallesi, Nilüfer Hatun Cd. No:114, 16140 Nilüfer/Bursa",
+        "googleMap":"https://biletinial.com/tr-tr/mekan/podyum-sanat-mahal-soldout"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://biletinial.com/tr-tr/tiyatro/kotu-bir-gun-soldoutevent2",
+      "category":"Stand Up",
+      "isFree":false,
+      "isPopular":true,
+
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "long":"Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "short":"NULL",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"Cem Karaca'nın Gözyaşları",
+      "image":[
+        "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/kotu-bir-gun-20231052133271f6502db9d3949cda4ebf9ce8e95850a.jpg"
+      ]
+    },
+    {
+      "city":"Ankara",
+      "location":{
+        "adress":"Cumhuriyet Mahallesi, Nilüfer Hatun Cd. No:114, 16140 Nilüfer/Bursa",
+        "googleMap":"https://biletinial.com/tr-tr/mekan/podyum-sanat-mahal-soldout"
+      },
+      "actors":[
+        "Hamlet Sezer Akçe",
+        "Leartes Kerem Corogil",
+        "Gertrude Melike Aslı Kılan",
+        "Kral Bayram Atila Karagöz",
+        "Horatio Egecan İntepeler",
+        "Hayalet Ozan Kalkan",
+        "Ophelia Berfin Türköz Kurt"
+
+      ],
+      "website":"https://biletinial.com/tr-tr/tiyatro/kotu-bir-gun-soldoutevent2",
+      "category":"Stand Up",
+      "isFree":false,
+      "price":"50 TL",
+      "date":"2019-01-01",
+      "hour":"20:00",
+      "header":{
+        "writter":"William Shakespeare",
+        "translator":"Sabahattin Eyüboğlu",
+        "governing":"Dr. Öğr. Ü. Ali Barışık"
+      },
+      "description":{
+        "long":"Sahneye adım attıktan sonra reklamcılığı bırakan Gökhan Ünver; sosyal medya, kültür çatışmaları, evliliğin zor yanları, ebeveynlik gibi A’dan Z’ye bütün esprilerini açık yüreklilikle sahneye taşıyor.",
+        "short":"NULL",
+         "decorationDesign":"Hasan Yavuz",
+        "CostumeDesign":"F. Duygu Ergüven Saykan",
+        "LightDesign":"Çağlar Aytaç",
+        "Music":"Erşah Gülerbaşlı",
+        "DirectorsAssistant":"Fuat Şarbalkan"
+      },
+      "name":"Canavar",
+      "image":[
+        "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/canavar-2023928192533a326d5736cee4072b1cd4353757f9eb8.jpeg"
+      ]
+    }
+  ]
+}
