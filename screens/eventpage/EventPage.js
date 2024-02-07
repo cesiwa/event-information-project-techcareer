@@ -4,6 +4,7 @@ import {
   SafeAreaView,
   TextInput,
   FlatList,
+  Button,
   ScrollView,
   Image,
 } from "react-native";
@@ -11,6 +12,9 @@ import React, { useState, useMemo } from "react";
 import MyCarousel from "../../components/MyCarousel";
 import data from "../../data/data.json";
 import Ionicons from "@expo/vector-icons/Ionicons";
+import DateTimePicker from "@react-native-community/datetimepicker";
+import EventCard from "../../components/EventCard";
+import { useNavigation } from "@react-navigation/native";
 
 const EventPage = () => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -23,6 +27,25 @@ const EventPage = () => {
       return item.name.toLowerCase().includes(searchQuery.toLowerCase());
     });
   });
+
+  // date işlemleri
+  const [startDate, setStartDate] = useState(new Date());
+  const [open, setOpen] = useState(false);
+
+  const [endDate, setEndDate] = useState(new Date());
+  const [open2, setOpen2] = useState(false);
+  const handleDateChange = (event, selectedDate) => {
+    const currentDate = selectedDate || startDate;
+    setStartDate(currentDate);
+  };
+  const navigation = useNavigation();
+
+  const sendData = ({ item }) => {
+    navigation.navigate({
+      name: "EventDetailPage",
+      params: { item: item },
+    });
+  };
 
   return (
     <SafeAreaView
@@ -38,76 +61,74 @@ const EventPage = () => {
         value={searchQuery}
         placeholder="Search..."
       />
+      <View
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "center",
+        }}
+      >
+        <View style={{ display: "flex", flexDirection: "row" }}>
+          <Text
+            style={{
+              fontSize: 16,
+              color: "#9087E3",
+              alignSelf: "center",
+              marginLeft: 20,
+            }}
+          >
+            Start Date:
+          </Text>
+
+          {/* <Text>
+            {new Intl.DateTimeFormat("tr-TR", {
+              day: "2-digit",
+              month: "2-digit",
+              year: "numeric",
+            }).format(startDate)}
+          </Text> */}
+          <DateTimePicker
+            style={styles.dateTime}
+            testID="dateTimePicker"
+            value={startDate}
+            mode="date"
+            is24Hour={true}
+            accentColor="#9087E3"
+            display="default"
+            disabled={open2}
+            dateFormat="day month year"
+            onChange={handleDateChange}
+          />
+        </View>
+        <View style={{ display: "flex", flexDirection: "row" }}>
+          <Text
+            style={{
+              fontSize: 16,
+              color: "#9087E3",
+              alignSelf: "center",
+              marginLeft: 20,
+            }}
+          >
+            End Date:
+          </Text>
+          <DateTimePicker
+            style={styles.dateTime}
+            testID="dateTimePicker"
+            value={startDate}
+            mode="date"
+            is24Hour={true}
+            display="default"
+          />
+        </View>
+      </View>
+
+      <Text style={styles.header}>Popular Events</Text>
+      <MyCarousel data={data.events.filter((item) => item.isPopular)} />
       <ScrollView style={styles.scrollView}>
-        <Text style={styles.header}>Popular Events</Text>
-        <MyCarousel data={data.events.filter((item) => item.isPopular)} />
         <FlatList
           data={FilteredData}
           renderItem={({ item }) => (
-            <View style={styles.flatList}>
-              <Image
-                source={{ uri: item.image[0] }}
-                style={{
-                  width: "40%",
-                  height: "100%",
-                  borderTopLeftRadius: 10,
-                  borderBottomLeftRadius: 10,
-                }}
-              />
-              <View style={{ padding: 15, width: "60%" }}>
-                <Text
-                  style={{
-                    fontWeight: 700,
-                    fontSize: 16,
-                    color: "white",
-                    marginBottom: 15,
-                  }}
-                >
-                  {item.name}
-                </Text>
-                <View
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    width: "80%",
-                    marginBottom: 10,
-                  }}
-                >
-                  <Ionicons name="location" size={24} color="#FAD9B9" />
-                  <Text
-                    style={{
-                      color: "white",
-                      marginBottom: 10,
-                      fontWeight: 500,
-                    }}
-                  >
-                    {item.location.adress}
-                  </Text>
-                </View>
-                <View
-                  style={{
-                    display: "flex",
-                    flexDirection: "row",
-                    width: "80%",
-                  }}
-                >
-                  <Ionicons name="time" size={24} color="#FAD9B9" />
-
-                  <Text
-                    style={{
-                      color: "white",
-                      marginBottom: 15,
-                      fontWeight: 700,
-                      fontSize: 14,
-                      marginTop: 5,
-                      marginLeft: 5,
-                    }}
-                  >
-                    {item.date} {item.hour}
-                  </Text>
-                </View>
-              </View>
-            </View>
+            <EventCard item={item} onPress={() => sendData({ item })} />
           )}
         />
       </ScrollView>
@@ -127,22 +148,18 @@ const styles = {
     borderWidth: 1,
     padding: 10,
     borderRadius: 10,
-    width: "70%",
+    width: "90%",
     margin: 20,
     marginBottom: 10,
   },
-  flatList: {
-    width: "90%",
-    backgroundColor: "#9087E3",
-    margin: 20,
-    marginBottom: 0,
-    height: 200,
-    borderRadius: 10,
-    flexDirection: "row",
-  },
+
   scrollView: {
-    height: "100%",
+    height: "50%",
     display: "flex",
+  },
+  dateTime: {
+    width: 90,
+    height: 40,
   },
 };
 export default EventPage;
